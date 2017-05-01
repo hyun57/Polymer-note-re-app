@@ -1,0 +1,60 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+
+<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+<link rel="import" href="../bower_components/google-map/google-map.html">
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-audio-player/paper-audio-player.html">
+<link rel="import" href="shared-styles.html">
+
+
+<dom-module id="MusicMoment-view">
+  <template>
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+
+      google-map {
+        height: 600px;
+      }
+
+
+    </style>
+
+
+
+    <div class="card" style="background-color:sky">
+      <h1> Music Moment </h1><button style="align: center;">추가하기</button><BR />
+    </div>
+    <div class="card">
+      <paper-audio-player src="../Musics/Sample.mp3" title="Sample Music" color="#5e1bdd"></paper-audio-player>
+
+    </div>
+    <div class="card">
+      <h2 style = "text-align: right">
+        다음 기능 준비중입니다.
+      </h2>
+    </div>
+
+</template>
+
+  <script>
+
+    Polymer({
+
+      is: 'MusicMoment-view',
+    });
+  </script>
+</dom-module>

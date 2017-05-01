@@ -1,0 +1,61 @@
+<!--
+@license
+Copyright (c) 2016 The IBM Research authors. All rights reserved.
+This code may only be used under the MIT style license found at https://ibmresearch.github.io/LICENSE.txt
+The complete set of authors may be found at https://ibmresearch.github.io/AUTHORS.txt
+The complete set of contributors may be found at https://ibmresearch.github.io/CONTRIBUTORS.txt
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>ibm-tabs demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../ibm-tabs.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+      .note {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Tabs simple</h3>
+      <demo-snippet>
+        <template>
+          <ibm-tabs selected="0">
+            <ibm-tab>Tab one</ibm-tab>
+            <ibm-tab>Tab two</ibm-tab>
+            <ibm-tab>Tab three</ibm-tab>
+          </ibm-tabs>
+        </template>
+      </demo-snippet>
+
+      <h3>Tabs can contain links</h3>
+      <p class="note">Wrap <code>ibm-tab</code>s in an anchor tags with <code>tabindex="-1"</code>.</p>
+      <demo-snippet>
+        <template>
+          <ibm-tabs selected="0">
+            <a href="#/one" tabindex="-1">
+              <ibm-tab>Tab one</ibm-tab>
+            </a>
+            <a href="#/two" tabindex="-1">
+              <ibm-tab>Tab two</ibm-tab>
+            </a>
+            <a href="#/three" tabindex="-1">
+              <ibm-tab>Tab three</ibm-tab>
+            </a>
+          </ibm-tabs>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
