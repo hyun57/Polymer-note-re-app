@@ -39,6 +39,19 @@ electron
 ### electron
 <img src = "/images/app.png" />
 
+### functions
+* note save
+* 날짜 기록
+* search
+* 날씨 정보
+* Home button
+* 달력 표시
+* MusicMoment
+* 네이버 검색링크
+* 타이머
+* 현재시각표시
+* 세계지도
+* stickmemo
 
 ## **save** note앱의 필수 결정체
 <img src = "/images/main.png" />
