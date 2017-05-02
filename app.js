@@ -40,5 +40,5 @@ myapp.all('/api/memosearch', function (req, res, next) {
 });
 
 myapp.listen(3000, function () {
-  console.log('Example myapp listening on port 3000!');
+  console.log('memo-app listening on port 3000!');
 });

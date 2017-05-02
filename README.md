@@ -13,12 +13,34 @@ note를 쓰고 저장할 수 있습니다. can save
 <img src = "/images/main.png" />
 </a>
 
-## 2. function
+## 2. use app
+**git clone https://github.com/hyun57/Polymer-note-re-app.git**
 
-자세한 기능 설명은 wiki를 참조하세요.
-ReadME는 기능을 간략히 소개합니다.
+명령어로 install할 수 있습니다.
+해당 주소로 들어간 뒤 **npm start** 로 실행하면
+ *electron** 과 *localhost:3000**에서 동시에 어플을 확인할 수 있습니다.
 
-### **save** note앱의 필수 결정체
+어플이 잘 작동하지 않을시엔 **node app.js** 와 **electron main.js** 을 **각각 다른 log창** 에서 실행하면 실행이 될 것입니다.
+
+그래도 작동하지않으면 컴퓨터 내에 지원프로그램이 모두 깔려있는지 확인하시오.
+* 지원프로그램
+node.js
+polymer
+express
+sqlite3
+electron
+
+
+## 3. function
+
+#자세한 기능 설명은 wiki를 참조하세요.
+#ReadME는 기능을 간략히 소개합니다.
+
+### electron
+<img src = "/images/app.png" />
+
+
+## **save** note앱의 필수 결정체
 <img src = "/images/main.png" />
 * **노트의 날짜 기록** 중요한 기본기능
 * **search** note앱이라면 당연히
@@ -53,11 +75,7 @@ ReadME는 기능을 간략히 소개합니다.
 <img src = "/images/world.png" />
 <img src = "/images/worldload.png" />
 
-## 3. use app
-git clone https://github.com/hyun57/Polymer-note-re-app.git
 
-명령어로 이용할 수 있고
-설치뒤엔 node app.js 을 쓸 수 있습니다.
 
 
 ## 4. contacts

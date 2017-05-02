@@ -1,14 +1,17 @@
 {
-  "name": "polymer-starter-kit",
+  "name": "memo",
   "license": "BSD-3-Clause",
+  "main": "main.js",
   "devDependencies": {
     "eslint": "^3.12.0",
     "eslint-config-google": "^0.7.1",
     "eslint-plugin-html": "^1.7.0"
   },
   "scripts": {
+    "start": "node app.js ",
     "lint": "eslint . --ext js,html --ignore-path .gitignore",
-    "test": "npm run lint && polymer test"
+    "test": "npm run lint && polymer test",
+    "start": "electron main.js"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
