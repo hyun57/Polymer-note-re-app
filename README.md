@@ -58,7 +58,6 @@ git clone https://github.com/hyun57/Polymer-note-re-app.git
 
 명령어로 이용할 수 있고
 설치뒤엔 node app.js 을 쓸 수 있습니다.
-(용량문제로 이 파일에는 electron 패키지가 없습니다.)
 
 
 ## 4. contacts
